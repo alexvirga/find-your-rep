@@ -1,10 +1,13 @@
 {
-  "name": "ais-ecommerce-demo-app",
+  "name": "rep",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://alexvirga.github.io/find-your-rep/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
   },
